@@ -15,7 +15,7 @@ def countLampposts(track,n):
                 for train in track:
                     if i==train[0]:
                         if j>=train[1] and j<=train[2]:
-                        flag=1
+                            flag=1
                         #print(i,j,"abc")
                 if flag!=1:
                     c=c+1
